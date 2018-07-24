@@ -73,8 +73,6 @@ function plotgraph1(){
             }
         }
 
-        
-        
         var chartdata = {
           labels: labels,
           datasets: [
