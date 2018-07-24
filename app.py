@@ -118,10 +118,6 @@ def home():
 
 @app.route("/player/<playername>")
 def player(playername):
-    return render_template("index.html", playername=playername)
-
-@app.route("/player/<playername>/gamelog/<year>")
-def gamelog(playername,year):
     year=2018
     playergamelog = teamdata["ALL"][format_list[playername]]
     htmlgamelog = str(str(playergamelog.to_html(index=False)).replace("\n","").replace("'","").replace(",","").replace("play","").replace("dataframe","w3-hoverable w3-table-all w3-tiny"))
@@ -129,7 +125,7 @@ def gamelog(playername,year):
 
 @app.route("/stat/<playername>/<stattype>/<year>")
 def stats(playername,stattype,year):
-#stattype can be "total","pergame","per36","per100"
+#"total","pergame","per36", or "per100"
     
     playerstats=""
     playerseasons = past_seasons_totals[past_seasons_totals["formatname"]==playername]
@@ -218,7 +214,12 @@ def totstatsallplayers():
 
 #     return "\n\nTOTALS\n\n" + htmltotstats + "\n\nPER GAME\n\n" + htmlpergamestats + "\n\nPER 36 MINUTES\n\n" + htmlper36mstats + "\n\nPER 100 POSSESSIONS\n\n" + htmlper100pstats
 
-
+# @app.route("/player/<playername>/gamelog/<year>")
+# def gamelog(playername,year):
+#     year=2018
+#     playergamelog = teamdata["ALL"][format_list[playername]]
+#     htmlgamelog = str(str(playergamelog.to_html(index=False)).replace("\n","").replace("'","").replace(",","").replace("play","").replace("dataframe","w3-hoverable w3-table-all w3-tiny"))
+#     return render_template("index.html", playername=playername, year=year, htmlgamelog=htmlgamelog)
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <head>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +8,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://npmcdn.com/chart.js@2.7.2/dist/Chart.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
@@ -20,9 +22,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <script src="/../static/js/format_names2.js"></script>
     <script src="/../static/js/popsel.js"></script>
     <script src="/../static/js/date_id_dict.js"></script>
+    <script src="/../static/js/chartjsgraph.js"></script>
     
 
-
+  </head>
 <body onload="printname()">
 
 <div class="w3-top">
@@ -51,7 +54,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- Content -->
 <div class="w3-content" style="max-width:1280px;margin-top:32px;margin-bottom:80px">
 
-  <p id="stores_the_player_name">{{playername}}</div>
+  <p style="height:1px;" id="stores_the_player_name">{{playername}}</p>
 
   <div class="w3-container" id="rosters">
     <div class="w3-center w3-padding-32">
@@ -66,31 +69,75 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     <div class="w3-col m10 w3-light-grey w3-container w3-padding-16 w3-round" style="height: 720px; border-color: black; border-width: 1px; border-style: solid;">
       <div style="position:relative;">
-        <button id="View Stats" onclick="location.href='/player/{{playername}}/gamelog/2018'" style="position:absolute; left:0; top:12px; text-align:left">See Stats</button>
+
+        <!-- <button id="View Stats" onclick="location.href='/player/{{playername}}/gamelog/2018'" style="position:absolute; left:0; top:12px; text-align:left">See Stats</button> -->
         <h4 id="playerinfo" style="position:absolute; right:0; top:0; text-align:right">{{playername}}</h4>
       </div>
       <br><br>
 
       <div class="w3-container" id="player">
       <div class="w3-display-container mySlides w3-round">
-        
-        <div class="graph1" id="graph1">
-          <script>
-            var playername= document.getElementById("stores_the_player_name");
-            $.getJSON(`/stat/${playername}/total`,function(data){
-              var text = date.playername;
-              $(".graph1").html(text);
-            });
+
+        <div id="graph1div"><canvas id="graph1" style="position: absolute;"></canvas></div>
+
+        <select id="stat-scale" onchange="plotgraph1()" style="position:absolute; right:0px; bottom:0px;">
+            <option selected disabled>Choose A Scale</option>
+            <option>Total</option>
+            <option>Per Game</option>
+            <option>Per 36 Min</option>
+            <option>Per 100 Poss</option>
+        </select>
+        <select id="stat-name" onchange="plotgraph1()" style="position:absolute; right:150px; bottom:0px;">
+            <option selected disabled>Choose A Stat</option>
+            <option>PTS</option>
+            <option>TRB</option>
+            <option>AST</option>
+            <option>BLK</option>
+            <option>STL</option>
+            <option>PF</option>
+            <option>TOV</option>
+            <option>DRB</option>
+            <option>ORB</option>
+            <option>MP</option>
+            <option>FG</option>
+            <option>FGA</option>
+            <option>2P</option>
+            <option>2PA</option>
+            <option>3P</option>
+            <option>3PA</option>
+            <option>FT</option>
+            <option>FTA</option>
             
+            <option>FG%</option>
+            <option>2P%</option>
+            <option>3P%</option>
+            <option>FT%</option>
+            <option>eFG%</option>
+            <option>TS%</option>
             
+            <option>3PAr</option>
+            <option>FTr</option>
+            <option>USG%</option>
+            <option>TRB%</option>
+            <option>DRB%</option>
+            <option>ORB%</option>
+            <option>AST%</option>
+            <option>BLK%</option>
+            <option>STL%</option>
+            <option>TOV%</option>
             
-            </script>
+            <option>PER</option>
+            <option>OWS</option>
+            <option>DWS</option>
+            <option>WS</option>
+            <option>WS/48</option>
+            <option>BPM</option>
+            <option>DBPM</option>
+            <option>OBPM</option>
+            <option>VORP</option>
+        </select>
 
 
-
-
-        </div>
-        
         <img src="" style="height: 600px">
         <div class="w3-display-bottomleft w3-container w3-padding-10">
           <span class="w3-white w3-padding-large w3-animate-bottom w3-opacity-min w3-round">Lorem ipsum</span>
