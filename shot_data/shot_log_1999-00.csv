@@ -1,0 +1,710 @@
+playername,ShotRange,ShotClass,PPS,Points
+Al Harrington,00-02 At Rim,Drive,1.5294117647058822,26
+Al Harrington,00-02 At Rim,Dunk,1.8823529411764706,32
+Al Harrington,00-02 At Rim,Jumper,0.0,0
+Al Harrington,00-02 At Rim,Layup,1.0833333333333333,52
+Al Harrington,00-02 At Rim,Reb/Oop,1.6,16
+Al Harrington,03-08 Near Rim,Drive,2.0,4
+Al Harrington,03-08 Near Rim,Jumper,0.44,22
+Al Harrington,03-08 Near Rim,Layup,1.3333333333333333,4
+Al Harrington,03-08 Near Rim,Post,1.5,6
+Al Harrington,03-08 Near Rim,Reb/Oop,0.0,0
+Al Harrington,09-12 Short Range,Jumper,0.7586206896551724,22
+Al Harrington,09-12 Short Range,Post,2.0,2
+Al Harrington,13-17 Mid Range,Jumper,1.1428571428571428,32
+Al Harrington,18-23 Long Jumper,Jumper,0.5454545454545454,18
+Al Harrington,24-27 Three,Jumper,0.47368421052631576,9
+Andre Miller,00-02 At Rim,Drive,1.3888888888888888,250
+Andre Miller,00-02 At Rim,Dunk,1.0,2
+Andre Miller,00-02 At Rim,Jumper,0.6666666666666666,4
+Andre Miller,00-02 At Rim,Layup,0.9423076923076923,98
+Andre Miller,00-02 At Rim,Reb/Oop,1.0,8
+Andre Miller,03-08 Near Rim,Drive,1.3333333333333333,8
+Andre Miller,03-08 Near Rim,Jumper,0.7074829931972789,104
+Andre Miller,03-08 Near Rim,Layup,0.0,0
+Andre Miller,09-12 Short Range,Jumper,0.8266666666666667,62
+Andre Miller,13-17 Mid Range,Jumper,0.7096774193548387,88
+Andre Miller,18-23 Long Jumper,Jumper,0.6181818181818182,34
+Andre Miller,24-27 Three,Jumper,0.7941176470588236,27
+Andre Miller,28-34 Deep,Jumper,0.75,3
+Andre Miller,35-46 Near Half,Jumper,0.0,0
+Andre Miller,47-94 Backcourt,Jumper,0.0,0
+Antawn Jamison,00-02 At Rim,Drive,1.641025641025641,64
+Antawn Jamison,00-02 At Rim,Dunk,1.8461538461538463,24
+Antawn Jamison,00-02 At Rim,Jumper,0.8888888888888888,8
+Antawn Jamison,00-02 At Rim,Layup,1.3548387096774193,210
+Antawn Jamison,00-02 At Rim,Post,1.0,4
+Antawn Jamison,00-02 At Rim,Reb/Oop,1.2727272727272727,42
+Antawn Jamison,03-08 Near Rim,Drive,2.0,2
+Antawn Jamison,03-08 Near Rim,Jumper,0.5918367346938775,116
+Antawn Jamison,03-08 Near Rim,Layup,0.8571428571428571,12
+Antawn Jamison,03-08 Near Rim,Post,1.0232558139534884,88
+Antawn Jamison,09-12 Short Range,Jumper,0.7017543859649122,40
+Antawn Jamison,09-12 Short Range,Post,0.75,6
+Antawn Jamison,13-17 Mid Range,Drive,2.0,2
+Antawn Jamison,13-17 Mid Range,Jumper,0.6909090909090909,76
+Antawn Jamison,18-23 Long Jumper,Jumper,0.64,16
+Antawn Jamison,18-23 Long Jumper,Post,2.0,2
+Antawn Jamison,24-27 Three,Jumper,0.0,0
+Antawn Jamison,28-34 Deep,Jumper,0.0,0
+Anthony Carter,00-02 At Rim,Drive,1.2087912087912087,110
+Anthony Carter,00-02 At Rim,Dunk,1.5,6
+Anthony Carter,00-02 At Rim,Jumper,2.0,2
+Anthony Carter,00-02 At Rim,Layup,1.03125,66
+Anthony Carter,00-02 At Rim,Post,2.0,2
+Anthony Carter,00-02 At Rim,Reb/Oop,1.0,4
+Anthony Carter,03-08 Near Rim,Drive,1.5,6
+Anthony Carter,03-08 Near Rim,Dunk,0.0,0
+Anthony Carter,03-08 Near Rim,Jumper,0.6923076923076923,36
+Anthony Carter,03-08 Near Rim,Layup,0.0,0
+Anthony Carter,03-08 Near Rim,Post,1.0,2
+Anthony Carter,09-12 Short Range,Jumper,0.4,12
+Anthony Carter,09-12 Short Range,Post,1.0,2
+Anthony Carter,13-17 Mid Range,Jumper,0.6122448979591837,60
+Anthony Carter,18-23 Long Jumper,Jumper,0.6716417910447762,90
+Anthony Carter,24-27 Three,Jumper,0.6666666666666666,6
+Anthony Carter,35-46 Near Half,Jumper,0.0,0
+Anthony Carter,47-94 Backcourt,Jumper,0.0,0
+Anthony Parker,00-02 At Rim,Drive,1.0,6
+Anthony Parker,00-02 At Rim,Layup,1.6,8
+Anthony Parker,03-08 Near Rim,Jumper,1.0,2
+Anthony Parker,09-12 Short Range,Jumper,0.0,0
+Anthony Parker,13-17 Mid Range,Jumper,1.2941176470588236,22
+Anthony Parker,18-23 Long Jumper,Jumper,0.5882352941176471,10
+Anthony Parker,24-27 Three,Jumper,0.0,0
+Antonio Daniels,00-02 At Rim,Drive,1.7692307692307692,46
+Antonio Daniels,00-02 At Rim,Dunk,2.0,34
+Antonio Daniels,00-02 At Rim,Layup,1.1851851851851851,64
+Antonio Daniels,03-08 Near Rim,Drive,2.0,2
+Antonio Daniels,03-08 Near Rim,Jumper,0.7272727272727273,32
+Antonio Daniels,03-08 Near Rim,Layup,0.0,0
+Antonio Daniels,09-12 Short Range,Jumper,0.5714285714285714,12
+Antonio Daniels,13-17 Mid Range,Jumper,0.8311688311688312,64
+Antonio Daniels,18-23 Long Jumper,Jumper,0.6037735849056604,32
+Antonio Daniels,24-27 Three,Jumper,1.25,60
+Antonio Daniels,28-34 Deep,Jumper,0.0,0
+Antonio Daniels,47-94 Backcourt,Jumper,0.0,0
+Antonio McDyess,00-02 At Rim,Drive,1.2653061224489797,62
+Antonio McDyess,00-02 At Rim,Dunk,1.8026315789473684,274
+Antonio McDyess,00-02 At Rim,Layup,1.1219512195121952,230
+Antonio McDyess,00-02 At Rim,Post,2.0,2
+Antonio McDyess,00-02 At Rim,Reb/Oop,0.9444444444444444,34
+Antonio McDyess,03-08 Near Rim,Drive,2.0,4
+Antonio McDyess,03-08 Near Rim,Jumper,0.8555555555555555,154
+Antonio McDyess,03-08 Near Rim,Layup,0.0,0
+Antonio McDyess,03-08 Near Rim,Post,0.5454545454545454,6
+Antonio McDyess,09-12 Short Range,Jumper,0.9448818897637795,120
+Antonio McDyess,13-17 Mid Range,Jumper,0.7653061224489796,300
+Antonio McDyess,18-23 Long Jumper,Jumper,0.84,42
+Antonio McDyess,24-27 Three,Dunk,0.0,0
+Antonio McDyess,28-34 Deep,Jumper,0.0,0
+Antonio McDyess,35-46 Near Half,Jumper,0.0,0
+Baron Davis,00-02 At Rim,Drive,1.4457831325301205,120
+Baron Davis,00-02 At Rim,Dunk,1.8888888888888888,34
+Baron Davis,00-02 At Rim,Layup,1.0,62
+Baron Davis,00-02 At Rim,Reb/Oop,0.75,6
+Baron Davis,03-08 Near Rim,Drive,2.0,2
+Baron Davis,03-08 Near Rim,Jumper,0.5454545454545454,12
+Baron Davis,03-08 Near Rim,Layup,0.0,0
+Baron Davis,09-12 Short Range,Jumper,0.6666666666666666,10
+Baron Davis,13-17 Mid Range,Jumper,0.6268656716417911,42
+Baron Davis,18-23 Long Jumper,Jumper,0.5306122448979592,26
+Baron Davis,24-27 Three,Jumper,0.7653061224489797,75
+Baron Davis,28-34 Deep,Jumper,0.0,0
+Baron Davis,35-46 Near Half,Jumper,0.0,0
+Baron Davis,47-94 Backcourt,Jumper,0.0,0
+Ben Wallace,00-02 At Rim,Drive,1.1764705882352942,20
+Ben Wallace,00-02 At Rim,Dunk,1.7471264367816093,152
+Ben Wallace,00-02 At Rim,Jumper,0.0,0
+Ben Wallace,00-02 At Rim,Layup,0.9387755102040817,92
+Ben Wallace,00-02 At Rim,Reb/Oop,0.8823529411764706,30
+Ben Wallace,03-08 Near Rim,Jumper,0.2631578947368421,10
+Ben Wallace,03-08 Near Rim,Layup,0.6666666666666666,2
+Ben Wallace,03-08 Near Rim,Post,0.6428571428571429,18
+Ben Wallace,09-12 Short Range,Jumper,0.4,4
+Ben Wallace,13-17 Mid Range,Jumper,0.36363636363636365,4
+Ben Wallace,18-23 Long Jumper,Jumper,0.5714285714285714,4
+Brad Miller,00-02 At Rim,Drive,1.1428571428571428,8
+Brad Miller,00-02 At Rim,Dunk,1.8823529411764706,64
+Brad Miller,00-02 At Rim,Jumper,2.0,4
+Brad Miller,00-02 At Rim,Layup,1.0078740157480315,128
+Brad Miller,00-02 At Rim,Post,0.0,0
+Brad Miller,00-02 At Rim,Reb/Oop,0.6153846153846154,8
+Brad Miller,03-08 Near Rim,Jumper,0.5652173913043478,26
+Brad Miller,03-08 Near Rim,Layup,1.0,2
+Brad Miller,03-08 Near Rim,Post,2.0,2
+Brad Miller,09-12 Short Range,Jumper,0.38461538461538464,10
+Brad Miller,13-17 Mid Range,Jumper,0.6,18
+Brad Miller,18-23 Long Jumper,Jumper,0.0,0
+Brad Miller,35-46 Near Half,Jumper,0.0,0
+Brad Miller,47-94 Backcourt,Jumper,0.0,0
+Chauncey Billups,00-02 At Rim,Drive,1.3846153846153846,18
+Chauncey Billups,00-02 At Rim,Jumper,0.0,0
+Chauncey Billups,00-02 At Rim,Layup,1.0,10
+Chauncey Billups,03-08 Near Rim,Drive,2.0,2
+Chauncey Billups,03-08 Near Rim,Jumper,0.4444444444444444,4
+Chauncey Billups,03-08 Near Rim,Layup,0.0,0
+Chauncey Billups,09-12 Short Range,Jumper,0.5,2
+Chauncey Billups,13-17 Mid Range,Jumper,0.4444444444444444,4
+Chauncey Billups,18-23 Long Jumper,Jumper,0.8571428571428571,18
+Chauncey Billups,24-27 Three,Jumper,0.5172413793103449,15
+Chauncey Billups,28-34 Deep,Jumper,0.0,0
+Chauncey Billups,35-46 Near Half,Jumper,0.0,0
+Corey Maggette,00-02 At Rim,Drive,1.05,42
+Corey Maggette,00-02 At Rim,Dunk,1.794871794871795,70
+Corey Maggette,00-02 At Rim,Jumper,2.0,2
+Corey Maggette,00-02 At Rim,Layup,1.1775700934579438,126
+Corey Maggette,00-02 At Rim,Post,2.0,2
+Corey Maggette,00-02 At Rim,Reb/Oop,1.391304347826087,32
+Corey Maggette,03-08 Near Rim,Jumper,0.6206896551724138,36
+Corey Maggette,03-08 Near Rim,Layup,1.0,2
+Corey Maggette,03-08 Near Rim,Post,1.3333333333333333,4
+Corey Maggette,09-12 Short Range,Jumper,0.8301886792452831,44
+Corey Maggette,13-17 Mid Range,Jumper,0.6823529411764706,58
+Corey Maggette,18-23 Long Jumper,Jumper,0.6122448979591837,30
+Corey Maggette,24-27 Three,Jumper,0.0,0
+Corey Maggette,35-46 Near Half,Jumper,0.0,0
+Corey Maggette,47-94 Backcourt,Jumper,0.0,0
+Derek Fisher,00-02 At Rim,Drive,0.8444444444444444,38
+Derek Fisher,00-02 At Rim,Dunk,2.0,2
+Derek Fisher,00-02 At Rim,Jumper,0.0,0
+Derek Fisher,00-02 At Rim,Layup,0.8148148148148148,22
+Derek Fisher,03-08 Near Rim,Jumper,0.4444444444444444,12
+Derek Fisher,09-12 Short Range,Jumper,0.3333333333333333,6
+Derek Fisher,13-17 Mid Range,Jumper,0.65625,42
+Derek Fisher,18-23 Long Jumper,Jumper,0.802547770700637,126
+Derek Fisher,24-27 Three,Jumper,0.9214285714285715,129
+Derek Fisher,28-34 Deep,Jumper,0.0,0
+Dirk Nowitzki,00-02 At Rim,Drive,1.462686567164179,98
+Dirk Nowitzki,00-02 At Rim,Dunk,2.0,60
+Dirk Nowitzki,00-02 At Rim,Jumper,0.0,0
+Dirk Nowitzki,00-02 At Rim,Layup,1.125,72
+Dirk Nowitzki,00-02 At Rim,Post,0.0,0
+Dirk Nowitzki,00-02 At Rim,Reb/Oop,1.25,10
+Dirk Nowitzki,03-08 Near Rim,Drive,1.0,10
+Dirk Nowitzki,03-08 Near Rim,Jumper,0.5882352941176471,40
+Dirk Nowitzki,03-08 Near Rim,Layup,0.4,2
+Dirk Nowitzki,03-08 Near Rim,Post,1.0,4
+Dirk Nowitzki,09-12 Short Range,Jumper,0.625,50
+Dirk Nowitzki,13-17 Mid Range,Jumper,1.0152905198776758,332
+Dirk Nowitzki,18-23 Long Jumper,Jumper,0.8326180257510729,194
+Dirk Nowitzki,24-27 Three,Jumper,1.0972222222222223,237
+Dirk Nowitzki,28-34 Deep,Jumper,0.0,0
+Dirk Nowitzki,35-46 Near Half,Jumper,0.0,0
+Earl Boykins,00-02 At Rim,Drive,1.0,10
+Earl Boykins,00-02 At Rim,Jumper,0.0,0
+Earl Boykins,00-02 At Rim,Layup,1.0,4
+Earl Boykins,00-02 At Rim,Reb/Oop,2.0,2
+Earl Boykins,03-08 Near Rim,Drive,2.0,2
+Earl Boykins,03-08 Near Rim,Jumper,0.9230769230769231,12
+Earl Boykins,03-08 Near Rim,Post,2.0,2
+Earl Boykins,09-12 Short Range,Jumper,0.9230769230769231,12
+Earl Boykins,13-17 Mid Range,Jumper,1.0666666666666667,48
+Earl Boykins,18-23 Long Jumper,Jumper,0.8,8
+Earl Boykins,24-27 Three,Jumper,1.2000000000000002,18
+Earl Boykins,28-34 Deep,Jumper,0.0,0
+Earl Boykins,47-94 Backcourt,Jumper,0.0,0
+Elton Brand,00-02 At Rim,Drive,1.6,40
+Elton Brand,00-02 At Rim,Dunk,1.7692307692307692,92
+Elton Brand,00-02 At Rim,Jumper,1.3333333333333333,8
+Elton Brand,00-02 At Rim,Layup,1.1299435028248588,400
+Elton Brand,00-02 At Rim,Post,1.0,2
+Elton Brand,00-02 At Rim,Reb/Oop,0.6857142857142857,24
+Elton Brand,03-08 Near Rim,Drive,2.0,2
+Elton Brand,03-08 Near Rim,Jumper,0.944,354
+Elton Brand,03-08 Near Rim,Layup,0.5,4
+Elton Brand,03-08 Near Rim,Post,1.0,34
+Elton Brand,09-12 Short Range,Jumper,0.729064039408867,148
+Elton Brand,09-12 Short Range,Layup,0.0,0
+Elton Brand,09-12 Short Range,Post,1.0,4
+Elton Brand,13-17 Mid Range,Jumper,0.7553191489361702,142
+Elton Brand,18-23 Long Jumper,Jumper,0.35294117647058826,6
+Elton Brand,24-27 Three,Jumper,0.0,0
+Erick Dampier,00-02 At Rim,Drive,0.5,2
+Erick Dampier,00-02 At Rim,Dunk,1.7333333333333334,26
+Erick Dampier,00-02 At Rim,Jumper,2.0,2
+Erick Dampier,00-02 At Rim,Layup,1.0769230769230769,42
+Erick Dampier,00-02 At Rim,Reb/Oop,1.2,12
+Erick Dampier,03-08 Near Rim,Jumper,0.42857142857142855,18
+Erick Dampier,03-08 Near Rim,Post,0.6666666666666666,10
+Erick Dampier,09-12 Short Range,Jumper,0.4,6
+Erick Dampier,09-12 Short Range,Post,2.0,4
+Erick Dampier,13-17 Mid Range,Jumper,0.6,18
+Grant Hill,00-02 At Rim,Drive,1.6893203883495145,348
+Grant Hill,00-02 At Rim,Dunk,1.7307692307692308,90
+Grant Hill,00-02 At Rim,Jumper,0.0,0
+Grant Hill,00-02 At Rim,Layup,0.8849557522123894,200
+Grant Hill,00-02 At Rim,Post,2.0,4
+Grant Hill,00-02 At Rim,Reb/Oop,0.9411764705882353,16
+Grant Hill,03-08 Near Rim,Drive,1.5714285714285714,22
+Grant Hill,03-08 Near Rim,Jumper,0.5555555555555556,50
+Grant Hill,03-08 Near Rim,Layup,0.8,4
+Grant Hill,03-08 Near Rim,Post,1.6666666666666667,10
+Grant Hill,09-12 Short Range,Jumper,0.8032786885245902,98
+Grant Hill,09-12 Short Range,Post,0.6666666666666666,2
+Grant Hill,13-17 Mid Range,Jumper,0.8362831858407079,378
+Grant Hill,18-23 Long Jumper,Jumper,0.782608695652174,108
+Grant Hill,24-27 Three,Jumper,1.2077922077922079,93
+Grant Hill,28-34 Deep,Jumper,0.0,0
+Grant Hill,35-46 Near Half,Jumper,0.0,0
+Grant Hill,47-94 Backcourt,Jumper,0.0,0
+James Posey,00-02 At Rim,Drive,1.0666666666666667,32
+James Posey,00-02 At Rim,Dunk,1.7727272727272727,78
+James Posey,00-02 At Rim,Layup,1.095890410958904,80
+James Posey,00-02 At Rim,Reb/Oop,1.0,16
+James Posey,03-08 Near Rim,Drive,2.0,2
+James Posey,03-08 Near Rim,Jumper,0.125,2
+James Posey,03-08 Near Rim,Layup,0.0,0
+James Posey,09-12 Short Range,Jumper,0.14285714285714285,2
+James Posey,13-17 Mid Range,Jumper,0.5333333333333333,32
+James Posey,18-23 Long Jumper,Jumper,0.868421052631579,132
+James Posey,24-27 Three,Jumper,1.0,126
+James Posey,35-46 Near Half,Jumper,0.0,0
+Jason Kidd,00-02 At Rim,Drive,1.64,82
+Jason Kidd,00-02 At Rim,Dunk,2.0,4
+Jason Kidd,00-02 At Rim,Jumper,0.0,0
+Jason Kidd,00-02 At Rim,Layup,1.095890410958904,160
+Jason Kidd,00-02 At Rim,Reb/Oop,1.5,6
+Jason Kidd,03-08 Near Rim,Drive,0.6666666666666666,2
+Jason Kidd,03-08 Near Rim,Jumper,0.5882352941176471,40
+Jason Kidd,03-08 Near Rim,Layup,0.0,0
+Jason Kidd,03-08 Near Rim,Post,2.0,2
+Jason Kidd,09-12 Short Range,Jumper,0.5384615384615384,28
+Jason Kidd,09-12 Short Range,Layup,2.0,2
+Jason Kidd,13-17 Mid Range,Jumper,0.7352941176470589,150
+Jason Kidd,18-23 Long Jumper,Jumper,0.73,146
+Jason Kidd,24-27 Three,Jumper,1.027027027027027,114
+Jason Kidd,28-34 Deep,Jumper,0.0,0
+Jason Kidd,35-46 Near Half,Jumper,0.75,3
+Jason Kidd,47-94 Backcourt,Jumper,0.0,0
+Jason Terry,00-02 At Rim,Drive,1.4761904761904763,62
+Jason Terry,00-02 At Rim,Dunk,2.0,6
+Jason Terry,00-02 At Rim,Layup,0.8666666666666667,52
+Jason Terry,03-08 Near Rim,Drive,0.0,0
+Jason Terry,03-08 Near Rim,Jumper,0.8695652173913043,40
+Jason Terry,03-08 Near Rim,Layup,0.0,0
+Jason Terry,09-12 Short Range,Jumper,0.7916666666666666,38
+Jason Terry,13-17 Mid Range,Jumper,0.8053691275167785,120
+Jason Terry,18-23 Long Jumper,Jumper,0.9038461538461539,94
+Jason Terry,24-27 Three,Jumper,0.9318181818181819,123
+Jason Terry,28-34 Deep,Jumper,0.6000000000000001,3
+Jason Terry,35-46 Near Half,Jumper,0.0,0
+Jason Terry,47-94 Backcourt,Jumper,1.5,3
+Jeff Foster,00-02 At Rim,Dunk,2.0,6
+Jeff Foster,00-02 At Rim,Layup,0.75,6
+Jeff Foster,00-02 At Rim,Reb/Oop,2.0,6
+Jeff Foster,03-08 Near Rim,Jumper,1.5,6
+Jeff Foster,09-12 Short Range,Jumper,0.0,0
+Jeff Foster,13-17 Mid Range,Jumper,0.6666666666666666,2
+Jeff Foster,24-27 Three,Jumper,0.0,0
+Jermaine ONeal,00-02 At Rim,Drive,1.3333333333333333,8
+Jermaine ONeal,00-02 At Rim,Dunk,1.76,88
+Jermaine ONeal,00-02 At Rim,Layup,0.8125,52
+Jermaine ONeal,00-02 At Rim,Post,2.0,2
+Jermaine ONeal,00-02 At Rim,Reb/Oop,1.1428571428571428,16
+Jermaine ONeal,03-08 Near Rim,Jumper,0.4,12
+Jermaine ONeal,03-08 Near Rim,Layup,1.0,2
+Jermaine ONeal,03-08 Near Rim,Post,1.0,6
+Jermaine ONeal,09-12 Short Range,Jumper,0.72,18
+Jermaine ONeal,13-17 Mid Range,Jumper,0.3333333333333333,4
+Jermaine ONeal,18-23 Long Jumper,Jumper,0.7272727272727273,8
+Jermaine ONeal,35-46 Near Half,Jumper,0.0,0
+Jerry Stackhouse,00-02 At Rim,Drive,1.536231884057971,212
+Jerry Stackhouse,00-02 At Rim,Dunk,1.8518518518518519,200
+Jerry Stackhouse,00-02 At Rim,Layup,0.7037037037037037,190
+Jerry Stackhouse,00-02 At Rim,Reb/Oop,0.875,14
+Jerry Stackhouse,03-08 Near Rim,Drive,1.0,4
+Jerry Stackhouse,03-08 Near Rim,Dunk,2.0,4
+Jerry Stackhouse,03-08 Near Rim,Jumper,0.5316455696202531,42
+Jerry Stackhouse,03-08 Near Rim,Layup,1.0,2
+Jerry Stackhouse,03-08 Near Rim,Post,0.6666666666666666,2
+Jerry Stackhouse,09-12 Short Range,Jumper,0.6086956521739131,56
+Jerry Stackhouse,09-12 Short Range,Post,0.0,0
+Jerry Stackhouse,13-17 Mid Range,Jumper,0.8089887640449438,216
+Jerry Stackhouse,13-17 Mid Range,Layup,2.0,2
+Jerry Stackhouse,18-23 Long Jumper,Jumper,0.751937984496124,194
+Jerry Stackhouse,24-27 Three,Jumper,0.765625,147
+Jerry Stackhouse,28-34 Deep,Jumper,0.30000000000000004,3
+Jerry Stackhouse,35-46 Near Half,Jumper,0.0,0
+Jerry Stackhouse,47-94 Backcourt,Jumper,0.0,0
+Joe Smith,00-02 At Rim,Drive,1.28,32
+Joe Smith,00-02 At Rim,Dunk,1.6428571428571428,46
+Joe Smith,00-02 At Rim,Layup,1.1612903225806452,108
+Joe Smith,00-02 At Rim,Reb/Oop,0.8421052631578947,16
+Joe Smith,03-08 Near Rim,Jumper,0.4473684210526316,34
+Joe Smith,03-08 Near Rim,Layup,0.5,2
+Joe Smith,03-08 Near Rim,Post,1.0793650793650793,68
+Joe Smith,09-12 Short Range,Jumper,0.6938775510204082,34
+Joe Smith,09-12 Short Range,Post,0.8,4
+Joe Smith,13-17 Mid Range,Jumper,0.8489208633093526,118
+Joe Smith,18-23 Long Jumper,Jumper,0.9421487603305785,114
+Joe Smith,35-46 Near Half,Jumper,3.0,3
+Juwan Howard,00-02 At Rim,Drive,1.8048780487804879,74
+Juwan Howard,00-02 At Rim,Dunk,1.7894736842105263,34
+Juwan Howard,00-02 At Rim,Jumper,0.0,0
+Juwan Howard,00-02 At Rim,Layup,0.9931972789115646,146
+Juwan Howard,00-02 At Rim,Post,1.6666666666666667,10
+Juwan Howard,00-02 At Rim,Reb/Oop,1.3333333333333333,8
+Juwan Howard,03-08 Near Rim,Drive,0.8,4
+Juwan Howard,03-08 Near Rim,Jumper,0.6602870813397129,138
+Juwan Howard,03-08 Near Rim,Layup,1.2727272727272727,14
+Juwan Howard,03-08 Near Rim,Post,1.5757575757575757,104
+Juwan Howard,09-12 Short Range,Jumper,0.8755020080321285,218
+Juwan Howard,09-12 Short Range,Post,1.5384615384615385,20
+Juwan Howard,13-17 Mid Range,Jumper,0.7702702702702703,228
+Juwan Howard,18-23 Long Jumper,Jumper,0.6666666666666666,20
+Juwan Howard,24-27 Three,Jumper,0.0,0
+Juwan Howard,35-46 Near Half,Jumper,0.0,0
+Juwan Howard,47-94 Backcourt,Jumper,0.0,0
+Kevin Garnett,00-02 At Rim,Drive,1.6,88
+Kevin Garnett,00-02 At Rim,Dunk,1.9058823529411764,162
+Kevin Garnett,00-02 At Rim,Jumper,1.3333333333333333,4
+Kevin Garnett,00-02 At Rim,Layup,1.1297709923664123,148
+Kevin Garnett,00-02 At Rim,Post,2.0,6
+Kevin Garnett,00-02 At Rim,Reb/Oop,0.9787234042553191,46
+Kevin Garnett,03-08 Near Rim,Drive,2.0,4
+Kevin Garnett,03-08 Near Rim,Jumper,0.9647058823529412,246
+Kevin Garnett,03-08 Near Rim,Layup,1.0,6
+Kevin Garnett,03-08 Near Rim,Post,1.0476190476190477,44
+Kevin Garnett,03-08 Near Rim,Reb/Oop,0.0,0
+Kevin Garnett,09-12 Short Range,Jumper,0.9157894736842105,174
+Kevin Garnett,09-12 Short Range,Layup,2.0,2
+Kevin Garnett,09-12 Short Range,Post,0.5,4
+Kevin Garnett,13-17 Mid Range,Jumper,0.75,258
+Kevin Garnett,18-23 Long Jumper,Jumper,0.9645390070921985,272
+Kevin Garnett,24-27 Three,Jumper,1.1363636363636362,75
+Kevin Garnett,28-34 Deep,Jumper,2.0,6
+Kevin Garnett,35-46 Near Half,Jumper,0.0,0
+Kobe Bryant,00-02 At Rim,Drive,1.3112582781456954,198
+Kobe Bryant,00-02 At Rim,Dunk,1.9428571428571428,136
+Kobe Bryant,00-02 At Rim,Jumper,2.0,2
+Kobe Bryant,00-02 At Rim,Layup,1.1388888888888888,82
+Kobe Bryant,00-02 At Rim,Reb/Oop,0.8571428571428571,18
+Kobe Bryant,03-08 Near Rim,Drive,1.0,4
+Kobe Bryant,03-08 Near Rim,Jumper,0.7633587786259542,100
+Kobe Bryant,03-08 Near Rim,Layup,1.2,6
+Kobe Bryant,03-08 Near Rim,Post,1.2,6
+Kobe Bryant,09-12 Short Range,Jumper,0.7586206896551724,110
+Kobe Bryant,09-12 Short Range,Post,0.6666666666666666,2
+Kobe Bryant,13-17 Mid Range,Jumper,0.7666666666666667,184
+Kobe Bryant,13-17 Mid Range,Layup,0.0,0
+Kobe Bryant,18-23 Long Jumper,Jumper,0.864321608040201,172
+Kobe Bryant,24-27 Three,Jumper,0.9831932773109244,117
+Kobe Bryant,28-34 Deep,Jumper,1.3333333333333333,12
+Kobe Bryant,35-46 Near Half,Jumper,0.6000000000000001,3
+Kobe Bryant,47-94 Backcourt,Jumper,0.0,0
+Kurt Thomas,00-02 At Rim,Drive,1.1578947368421053,22
+Kurt Thomas,00-02 At Rim,Dunk,2.0,18
+Kurt Thomas,00-02 At Rim,Jumper,1.0,2
+Kurt Thomas,00-02 At Rim,Layup,1.3035714285714286,146
+Kurt Thomas,00-02 At Rim,Post,0.0,0
+Kurt Thomas,00-02 At Rim,Reb/Oop,0.8148148148148148,22
+Kurt Thomas,03-08 Near Rim,Jumper,0.9292929292929293,92
+Kurt Thomas,03-08 Near Rim,Layup,0.0,0
+Kurt Thomas,03-08 Near Rim,Post,1.375,22
+Kurt Thomas,09-12 Short Range,Jumper,0.9504950495049505,96
+Kurt Thomas,09-12 Short Range,Post,2.0,4
+Kurt Thomas,13-17 Mid Range,Jumper,0.8333333333333334,90
+Kurt Thomas,18-23 Long Jumper,Jumper,0.7272727272727273,24
+Kurt Thomas,24-27 Three,Jumper,1.5,3
+Lamar Odom,00-02 At Rim,Drive,1.3962264150943395,222
+Lamar Odom,00-02 At Rim,Dunk,1.9166666666666667,46
+Lamar Odom,00-02 At Rim,Jumper,1.3333333333333333,4
+Lamar Odom,00-02 At Rim,Layup,0.8955223880597015,120
+Lamar Odom,00-02 At Rim,Post,2.0,2
+Lamar Odom,00-02 At Rim,Reb/Oop,1.15,46
+Lamar Odom,03-08 Near Rim,Drive,0.75,6
+Lamar Odom,03-08 Near Rim,Jumper,0.6262626262626263,124
+Lamar Odom,03-08 Near Rim,Layup,1.5,6
+Lamar Odom,03-08 Near Rim,Post,1.3714285714285714,48
+Lamar Odom,09-12 Short Range,Jumper,0.5054945054945055,46
+Lamar Odom,09-12 Short Range,Post,1.6,8
+Lamar Odom,13-17 Mid Range,Jumper,0.625,50
+Lamar Odom,13-17 Mid Range,Layup,0.0,0
+Lamar Odom,18-23 Long Jumper,Jumper,0.6578947368421053,50
+Lamar Odom,24-27 Three,Jumper,1.015748031496063,129
+Lamar Odom,28-34 Deep,Jumper,2.0999999999999996,21
+Lamar Odom,35-46 Near Half,Jumper,0.375,3
+Lamar Odom,47-94 Backcourt,Jumper,0.0,0
+Marcus Camby,00-02 At Rim,Drive,1.087719298245614,62
+Marcus Camby,00-02 At Rim,Dunk,1.9661016949152543,116
+Marcus Camby,00-02 At Rim,Jumper,1.3333333333333333,4
+Marcus Camby,00-02 At Rim,Layup,1.0260869565217392,118
+Marcus Camby,00-02 At Rim,Post,2.0,2
+Marcus Camby,00-02 At Rim,Reb/Oop,0.6129032258064516,38
+Marcus Camby,03-08 Near Rim,Jumper,0.6086956521739131,42
+Marcus Camby,03-08 Near Rim,Layup,1.0,2
+Marcus Camby,03-08 Near Rim,Post,1.0,6
+Marcus Camby,03-08 Near Rim,Reb/Oop,0.0,0
+Marcus Camby,09-12 Short Range,Jumper,0.49056603773584906,26
+Marcus Camby,09-12 Short Range,Post,2.0,2
+Marcus Camby,13-17 Mid Range,Jumper,0.7894736842105263,30
+Marcus Camby,18-23 Long Jumper,Jumper,1.0,2
+Marcus Camby,47-94 Backcourt,Jumper,1.5,3
+Metta World Peace,00-02 At Rim,Drive,1.5402298850574712,134
+Metta World Peace,00-02 At Rim,Dunk,1.7391304347826086,40
+Metta World Peace,00-02 At Rim,Jumper,1.0,4
+Metta World Peace,00-02 At Rim,Layup,0.8604651162790697,148
+Metta World Peace,00-02 At Rim,Reb/Oop,0.0,0
+Metta World Peace,03-08 Near Rim,Drive,1.0,2
+Metta World Peace,03-08 Near Rim,Jumper,0.509090909090909,28
+Metta World Peace,03-08 Near Rim,Layup,0.0,0
+Metta World Peace,03-08 Near Rim,Post,0.0,0
+Metta World Peace,09-12 Short Range,Jumper,0.4166666666666667,10
+Metta World Peace,13-17 Mid Range,Jumper,0.6736842105263158,64
+Metta World Peace,18-23 Long Jumper,Jumper,0.6363636363636364,98
+Metta World Peace,24-27 Three,Jumper,1.0465116279069768,135
+Metta World Peace,28-34 Deep,Jumper,0.0,0
+Metta World Peace,35-46 Near Half,Jumper,0.0,0
+Metta World Peace,47-94 Backcourt,Jumper,0.0,0
+Mike Bibby,00-02 At Rim,Drive,1.4545454545454546,128
+Mike Bibby,00-02 At Rim,Dunk,2.0,4
+Mike Bibby,00-02 At Rim,Jumper,2.0,2
+Mike Bibby,00-02 At Rim,Layup,0.7789473684210526,74
+Mike Bibby,00-02 At Rim,Reb/Oop,2.0,4
+Mike Bibby,03-08 Near Rim,Drive,1.0,14
+Mike Bibby,03-08 Near Rim,Jumper,0.5853658536585366,48
+Mike Bibby,03-08 Near Rim,Layup,1.0,4
+Mike Bibby,03-08 Near Rim,Post,2.0,6
+Mike Bibby,09-12 Short Range,Drive,2.0,2
+Mike Bibby,09-12 Short Range,Jumper,1.1162790697674418,48
+Mike Bibby,13-17 Mid Range,Jumper,0.8584070796460177,194
+Mike Bibby,13-17 Mid Range,Layup,0.0,0
+Mike Bibby,18-23 Long Jumper,Jumper,0.916083916083916,262
+Mike Bibby,18-23 Long Jumper,Layup,0.0,0
+Mike Bibby,24-27 Three,Jumper,1.0988372093023255,189
+Mike Bibby,28-34 Deep,Jumper,0.375,3
+Mike Bibby,35-46 Near Half,Jumper,0.0,0
+Mike Bibby,47-94 Backcourt,Jumper,0.0,0
+Mikki Moore,00-02 At Rim,Drive,1.0,2
+Mikki Moore,00-02 At Rim,Dunk,1.8571428571428572,52
+Mikki Moore,00-02 At Rim,Layup,1.3636363636363635,30
+Mikki Moore,00-02 At Rim,Post,2.0,4
+Mikki Moore,00-02 At Rim,Reb/Oop,0.4,2
+Mikki Moore,03-08 Near Rim,Jumper,0.9333333333333333,14
+Mikki Moore,03-08 Near Rim,Layup,0.0,0
+Mikki Moore,03-08 Near Rim,Post,2.0,14
+Mikki Moore,03-08 Near Rim,Reb/Oop,2.0,2
+Mikki Moore,09-12 Short Range,Jumper,1.0,6
+Mikki Moore,09-12 Short Range,Layup,2.0,2
+Mikki Moore,09-12 Short Range,Post,1.3333333333333333,8
+Mikki Moore,13-17 Mid Range,Jumper,1.0285714285714285,36
+Mikki Moore,18-23 Long Jumper,Jumper,0.2222222222222222,2
+Nazr Mohammed,00-02 At Rim,Drive,0.0,0
+Nazr Mohammed,00-02 At Rim,Dunk,1.6,8
+Nazr Mohammed,00-02 At Rim,Layup,1.7142857142857142,12
+Nazr Mohammed,00-02 At Rim,Reb/Oop,1.6,8
+Nazr Mohammed,03-08 Near Rim,Jumper,0.09090909090909091,2
+Nazr Mohammed,03-08 Near Rim,Post,2.0,8
+Nazr Mohammed,09-12 Short Range,Jumper,0.6666666666666666,4
+Nazr Mohammed,13-17 Mid Range,Jumper,0.0,0
+Paul Pierce,00-02 At Rim,Drive,1.5903614457831325,132
+Paul Pierce,00-02 At Rim,Dunk,1.8823529411764706,64
+Paul Pierce,00-02 At Rim,Jumper,0.0,0
+Paul Pierce,00-02 At Rim,Layup,1.0746268656716418,144
+Paul Pierce,00-02 At Rim,Post,0.6666666666666666,2
+Paul Pierce,00-02 At Rim,Reb/Oop,0.75,6
+Paul Pierce,03-08 Near Rim,Drive,1.2,30
+Paul Pierce,03-08 Near Rim,Jumper,0.42696629213483145,38
+Paul Pierce,03-08 Near Rim,Layup,0.3333333333333333,4
+Paul Pierce,03-08 Near Rim,Post,1.3333333333333333,8
+Paul Pierce,09-12 Short Range,Jumper,0.7692307692307693,50
+Paul Pierce,13-17 Mid Range,Jumper,0.8990825688073395,196
+Paul Pierce,13-17 Mid Range,Layup,2.0,2
+Paul Pierce,18-23 Long Jumper,Jumper,0.6893203883495146,142
+Paul Pierce,24-27 Three,Jumper,1.1159420289855073,231
+Paul Pierce,28-34 Deep,Jumper,0.0,0
+Paul Pierce,35-46 Near Half,Jumper,0.0,0
+Peja Stojakovic,00-02 At Rim,Drive,1.35,54
+Peja Stojakovic,00-02 At Rim,Dunk,2.0,2
+Peja Stojakovic,00-02 At Rim,Jumper,2.0,2
+Peja Stojakovic,00-02 At Rim,Layup,1.5068493150684932,110
+Peja Stojakovic,00-02 At Rim,Reb/Oop,1.0,4
+Peja Stojakovic,03-08 Near Rim,Drive,1.3333333333333333,8
+Peja Stojakovic,03-08 Near Rim,Jumper,0.7058823529411765,48
+Peja Stojakovic,03-08 Near Rim,Layup,1.0,4
+Peja Stojakovic,03-08 Near Rim,Post,0.6666666666666666,2
+Peja Stojakovic,09-12 Short Range,Jumper,0.5625,18
+Peja Stojakovic,13-17 Mid Range,Jumper,0.8297872340425532,78
+Peja Stojakovic,18-23 Long Jumper,Jumper,0.8846153846153846,184
+Peja Stojakovic,24-27 Three,Jumper,1.0628571428571427,186
+Peja Stojakovic,28-34 Deep,Jumper,1.2000000000000002,6
+Peja Stojakovic,35-46 Near Half,Jumper,0.0,0
+Peja Stojakovic,47-94 Backcourt,Jumper,0.0,0
+Rashard Lewis,00-02 At Rim,Drive,1.7037037037037037,46
+Rashard Lewis,00-02 At Rim,Dunk,1.8666666666666667,84
+Rashard Lewis,00-02 At Rim,Jumper,1.3333333333333333,4
+Rashard Lewis,00-02 At Rim,Layup,1.4794520547945205,108
+Rashard Lewis,00-02 At Rim,Post,1.0,2
+Rashard Lewis,00-02 At Rim,Reb/Oop,1.2,24
+Rashard Lewis,03-08 Near Rim,Drive,1.2,6
+Rashard Lewis,03-08 Near Rim,Dunk,2.0,2
+Rashard Lewis,03-08 Near Rim,Jumper,0.7333333333333333,66
+Rashard Lewis,03-08 Near Rim,Layup,1.6666666666666667,10
+Rashard Lewis,03-08 Near Rim,Post,1.0,4
+Rashard Lewis,03-08 Near Rim,Reb/Oop,0.0,0
+Rashard Lewis,09-12 Short Range,Jumper,0.6428571428571429,18
+Rashard Lewis,09-12 Short Range,Post,2.0,2
+Rashard Lewis,13-17 Mid Range,Jumper,0.6341463414634146,52
+Rashard Lewis,18-23 Long Jumper,Jumper,0.7857142857142857,66
+Rashard Lewis,24-27 Three,Jumper,0.8470588235294118,72
+Ray Allen,00-02 At Rim,Drive,1.3432835820895523,90
+Ray Allen,00-02 At Rim,Dunk,1.7777777777777777,80
+Ray Allen,00-02 At Rim,Jumper,0.3333333333333333,2
+Ray Allen,00-02 At Rim,Layup,0.9938650306748467,162
+Ray Allen,00-02 At Rim,Reb/Oop,0.0,0
+Ray Allen,03-08 Near Rim,Drive,1.25,10
+Ray Allen,03-08 Near Rim,Dunk,2.0,2
+Ray Allen,03-08 Near Rim,Jumper,0.8244274809160306,108
+Ray Allen,03-08 Near Rim,Layup,1.6666666666666667,10
+Ray Allen,09-12 Short Range,Jumper,0.9438202247191011,168
+Ray Allen,13-17 Mid Range,Jumper,0.7631578947368421,232
+Ray Allen,18-23 Long Jumper,Jumper,0.8601036269430051,166
+Ray Allen,24-27 Three,Jumper,1.2964285714285715,363
+Ray Allen,24-27 Three,Reb/Oop,3.0,3
+Ray Allen,28-34 Deep,Jumper,1.5,15
+Ray Allen,35-46 Near Half,Jumper,0.0,0
+Ray Allen,47-94 Backcourt,Jumper,0.0,0
+Richard Hamilton,00-02 At Rim,Drive,1.5714285714285714,66
+Richard Hamilton,00-02 At Rim,Dunk,2.0,6
+Richard Hamilton,00-02 At Rim,Jumper,0.0,0
+Richard Hamilton,00-02 At Rim,Layup,0.8627450980392157,44
+Richard Hamilton,00-02 At Rim,Post,0.0,0
+Richard Hamilton,00-02 At Rim,Reb/Oop,0.0,0
+Richard Hamilton,03-08 Near Rim,Drive,2.0,8
+Richard Hamilton,03-08 Near Rim,Jumper,0.6428571428571429,54
+Richard Hamilton,03-08 Near Rim,Layup,2.0,2
+Richard Hamilton,09-12 Short Range,Jumper,0.675,54
+Richard Hamilton,13-17 Mid Range,Jumper,0.8654970760233918,148
+Richard Hamilton,13-17 Mid Range,Layup,2.0,2
+Richard Hamilton,18-23 Long Jumper,Jumper,0.7619047619047619,80
+Richard Hamilton,24-27 Three,Jumper,1.1454545454545455,63
+Richard Hamilton,28-34 Deep,Jumper,3.0,3
+Richard Hamilton,35-46 Near Half,Jumper,0.0,0
+Shaquille ONeal,00-02 At Rim,Drive,1.6551724137931034,48
+Shaquille ONeal,00-02 At Rim,Dunk,1.9259259259259258,468
+Shaquille ONeal,00-02 At Rim,Jumper,1.0,4
+Shaquille ONeal,00-02 At Rim,Layup,1.3436692506459949,520
+Shaquille ONeal,00-02 At Rim,Post,1.4545454545454546,16
+Shaquille ONeal,00-02 At Rim,Reb/Oop,0.9444444444444444,34
+Shaquille ONeal,03-08 Near Rim,Dunk,2.0,2
+Shaquille ONeal,03-08 Near Rim,Jumper,0.7398568019093079,310
+Shaquille ONeal,03-08 Near Rim,Layup,1.0769230769230769,14
+Shaquille ONeal,03-08 Near Rim,Post,1.1517241379310346,334
+Shaquille ONeal,09-12 Short Range,Jumper,0.6745562130177515,114
+Shaquille ONeal,09-12 Short Range,Post,0.9473684210526315,36
+Shaquille ONeal,13-17 Mid Range,Jumper,0.42105263157894735,8
+Shaquille ONeal,13-17 Mid Range,Post,1.0,4
+Shaquille ONeal,18-23 Long Jumper,Jumper,0.0,0
+Shaquille ONeal,24-27 Three,Jumper,0.0,0
+Shawn Marion,00-02 At Rim,Drive,1.4,14
+Shawn Marion,00-02 At Rim,Dunk,1.8666666666666667,140
+Shawn Marion,00-02 At Rim,Layup,0.9863013698630136,72
+Shawn Marion,00-02 At Rim,Post,2.0,2
+Shawn Marion,00-02 At Rim,Reb/Oop,1.0769230769230769,14
+Shawn Marion,03-08 Near Rim,Drive,2.0,2
+Shawn Marion,03-08 Near Rim,Jumper,0.6792452830188679,36
+Shawn Marion,03-08 Near Rim,Layup,0.0,0
+Shawn Marion,03-08 Near Rim,Post,0.5,2
+Shawn Marion,09-12 Short Range,Jumper,0.75,36
+Shawn Marion,09-12 Short Range,Layup,0.0,0
+Shawn Marion,13-17 Mid Range,Jumper,0.6666666666666666,86
+Shawn Marion,18-23 Long Jumper,Jumper,0.8163265306122449,40
+Shawn Marion,24-27 Three,Jumper,0.0,0
+Steve Nash,00-02 At Rim,Drive,1.7647058823529411,30
+Steve Nash,00-02 At Rim,Layup,1.1111111111111112,20
+Steve Nash,00-02 At Rim,Reb/Oop,2.0,2
+Steve Nash,03-08 Near Rim,Jumper,0.8666666666666667,26
+Steve Nash,09-12 Short Range,Jumper,1.0810810810810811,40
+Steve Nash,13-17 Mid Range,Jumper,0.9117647058823529,62
+Steve Nash,18-23 Long Jumper,Jumper,0.987012987012987,76
+Steve Nash,24-27 Three,Jumper,1.1946902654867257,135
+Steve Nash,35-46 Near Half,Jumper,0.0,0
+Theo Ratliff,00-02 At Rim,Drive,1.9310344827586208,56
+Theo Ratliff,00-02 At Rim,Dunk,1.9722222222222223,142
+Theo Ratliff,00-02 At Rim,Jumper,1.0,2
+Theo Ratliff,00-02 At Rim,Layup,1.0985915492957747,78
+Theo Ratliff,00-02 At Rim,Post,2.0,2
+Theo Ratliff,00-02 At Rim,Reb/Oop,0.7,14
+Theo Ratliff,03-08 Near Rim,Dunk,2.0,2
+Theo Ratliff,03-08 Near Rim,Jumper,0.44660194174757284,46
+Theo Ratliff,03-08 Near Rim,Layup,0.4,2
+Theo Ratliff,03-08 Near Rim,Post,1.7142857142857142,36
+Theo Ratliff,03-08 Near Rim,Reb/Oop,0.0,0
+Theo Ratliff,09-12 Short Range,Jumper,0.5675675675675675,42
+Theo Ratliff,09-12 Short Range,Post,1.5,12
+Theo Ratliff,13-17 Mid Range,Jumper,0.7012987012987013,54
+Theo Ratliff,18-23 Long Jumper,Dunk,2.0,2
+Theo Ratliff,18-23 Long Jumper,Jumper,1.0,4
+Tim Duncan,00-02 At Rim,Drive,1.7333333333333334,52
+Tim Duncan,00-02 At Rim,Dunk,1.7105263157894737,130
+Tim Duncan,00-02 At Rim,Jumper,0.6666666666666666,2
+Tim Duncan,00-02 At Rim,Layup,1.0666666666666667,208
+Tim Duncan,00-02 At Rim,Post,0.8,4
+Tim Duncan,00-02 At Rim,Reb/Oop,1.36,68
+Tim Duncan,03-08 Near Rim,Drive,1.6,8
+Tim Duncan,03-08 Near Rim,Dunk,0.0,0
+Tim Duncan,03-08 Near Rim,Jumper,0.7641196013289037,230
+Tim Duncan,03-08 Near Rim,Layup,0.6666666666666666,6
+Tim Duncan,03-08 Near Rim,Post,1.1666666666666667,98
+Tim Duncan,09-12 Short Range,Jumper,0.8651685393258427,154
+Tim Duncan,09-12 Short Range,Layup,0.0,0
+Tim Duncan,09-12 Short Range,Post,1.375,22
+Tim Duncan,13-17 Mid Range,Jumper,0.8625954198473282,226
+Tim Duncan,18-23 Long Jumper,Jumper,0.8571428571428571,48
+Tim Duncan,24-27 Three,Jumper,0.0,0
+Tim Duncan,47-94 Backcourt,Jumper,0.0,0
+Tony Battie,00-02 At Rim,Drive,1.4,14
+Tony Battie,00-02 At Rim,Dunk,1.9259259259259258,104
+Tony Battie,00-02 At Rim,Jumper,0.0,0
+Tony Battie,00-02 At Rim,Layup,0.8923076923076924,58
+Tony Battie,00-02 At Rim,Post,0.6666666666666666,2
+Tony Battie,00-02 At Rim,Reb/Oop,1.0476190476190477,22
+Tony Battie,03-08 Near Rim,Dunk,2.0,4
+Tony Battie,03-08 Near Rim,Jumper,0.7105263157894737,54
+Tony Battie,03-08 Near Rim,Layup,0.5,2
+Tony Battie,03-08 Near Rim,Post,1.0,14
+Tony Battie,03-08 Near Rim,Reb/Oop,0.0,0
+Tony Battie,09-12 Short Range,Jumper,1.0175438596491229,58
+Tony Battie,09-12 Short Range,Post,1.0,2
+Tony Battie,13-17 Mid Range,Jumper,0.7238095238095238,76
+Tony Battie,18-23 Long Jumper,Jumper,0.7222222222222222,26
+Tony Battie,24-27 Three,Jumper,0.75,3
+Tony Battie,35-46 Near Half,Jumper,0.0,0
+Tony Battie,47-94 Backcourt,Jumper,0.0,0
+Tracy McGrady,00-02 At Rim,Drive,1.2183908045977012,106
+Tracy McGrady,00-02 At Rim,Dunk,1.7555555555555555,158
+Tracy McGrady,00-02 At Rim,Jumper,0.0,0
+Tracy McGrady,00-02 At Rim,Layup,0.967741935483871,120
+Tracy McGrady,00-02 At Rim,Reb/Oop,0.7755102040816326,38
+Tracy McGrady,03-08 Near Rim,Drive,1.5,6
+Tracy McGrady,03-08 Near Rim,Jumper,0.7422680412371134,72
+Tracy McGrady,03-08 Near Rim,Layup,1.0,2
+Tracy McGrady,03-08 Near Rim,Post,0.6666666666666666,2
+Tracy McGrady,09-12 Short Range,Jumper,0.625,60
+Tracy McGrady,09-12 Short Range,Post,1.0,2
+Tracy McGrady,13-17 Mid Range,Jumper,0.7477477477477478,166
+Tracy McGrady,18-23 Long Jumper,Jumper,0.8540540540540541,158
+Tracy McGrady,24-27 Three,Jumper,0.7959183673469388,39
+Tracy McGrady,28-34 Deep,Jumper,1.5,3
+Tracy McGrady,35-46 Near Half,Jumper,0.0,0
+Tracy McGrady,47-94 Backcourt,Jumper,0.0,0
+Vince Carter,00-02 At Rim,Drive,1.296875,166
+Vince Carter,00-02 At Rim,Dunk,1.8666666666666667,196
+Vince Carter,00-02 At Rim,Jumper,0.0,0
+Vince Carter,00-02 At Rim,Layup,0.9927007299270073,136
+Vince Carter,00-02 At Rim,Reb/Oop,0.9444444444444444,34
+Vince Carter,03-08 Near Rim,Drive,1.6,8
+Vince Carter,03-08 Near Rim,Dunk,2.0,4
+Vince Carter,03-08 Near Rim,Jumper,0.7125,114
+Vince Carter,03-08 Near Rim,Layup,0.0,0
+Vince Carter,03-08 Near Rim,Post,1.3333333333333333,16
+Vince Carter,09-12 Short Range,Drive,0.0,0
+Vince Carter,09-12 Short Range,Jumper,0.7019867549668874,106
+Vince Carter,09-12 Short Range,Post,2.0,2
+Vince Carter,13-17 Mid Range,Jumper,0.8348623853211009,364
+Vince Carter,18-23 Long Jumper,Jumper,0.8676923076923077,282
+Vince Carter,24-27 Three,Jumper,1.153846153846154,210
+Vince Carter,28-34 Deep,Jumper,1.7999999999999998,9
+Vince Carter,35-46 Near Half,Jumper,1.0,3
+Vince Carter,47-94 Backcourt,Jumper,0.0,0
