@@ -6,7 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-
+clusterdf = pd.read_csv("clusters/ClusterPlayers.csv", encoding="utf-8")
 raw_data = pd.read_csv("data/2017-18_playerBoxScore.csv", encoding="utf-8")
 tot2018_df = pd.read_csv("data/player_stat_totals_2017_18.csv",encoding="utf-8")
 past_seasons_totals = pd.read_csv("data/past_seasons_totals.csv", encoding="utf-8")
@@ -184,7 +184,11 @@ def alltotal(stat):
     for player in modern_players:
         year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year",stat]]
         year_player_df["data"]=year_player_df[stat]
-        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+        try:
+            year_player_df["cluster"]=float(clusterdf.loc[(clusterdf["formatname"]==player) & (clusterdf["Year"]==2018)]["cluster"])
+        except:
+            year_player_df["cluster"] = ""
+        indivstat[player] = year_player_df[["data","Year","cluster"]].fillna("").reset_index(drop=True).T.to_dict()
     return jsonify(indivstat)
 
 @app.route("/stat/all/pergame/<stat>")
@@ -193,16 +197,24 @@ def allpergame(stat):
     for player in modern_players:
         year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","G",stat]]
         year_player_df["data"]=year_player_df[stat]/(year_player_df["G"])
-        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+        try:
+            year_player_df["cluster"]=float(clusterdf.loc[(clusterdf["formatname"]==player) & (clusterdf["Year"]==2018)]["cluster"])
+        except:
+            year_player_df["cluster"] = ""        
+        indivstat[player] = year_player_df[["data","Year","cluster"]].fillna("").reset_index(drop=True).T.to_dict()
     return jsonify(indivstat)
 
 @app.route("/stat/all/per36/<stat>")
 def allper36(stat):
     indivstat = {}
     for player in modern_players:
-        year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","MP",stat]]
-        year_player_df["data"]=year_player_df[stat]/(year_player_df["MP"]/36)
-        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+            year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","MP",stat]]
+            year_player_df["data"]=year_player_df[stat]/(year_player_df["MP"]/36)
+            try:
+                year_player_df["cluster"]=float(clusterdf.loc[(clusterdf["formatname"]==player) & (clusterdf["Year"]==2018)]["cluster"])
+            except:
+                year_player_df["cluster"] = ""
+            indivstat[player] = year_player_df[["data","Year","cluster"]].fillna("").reset_index(drop=True).T.to_dict()
     return jsonify(indivstat)
 
 @app.route("/stat/all/per100/<stat>")
@@ -211,7 +223,11 @@ def allper100(stat):
     for player in modern_players:
         year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","possOnCourt",stat]]
         year_player_df["data"]=year_player_df[stat]/(year_player_df["possOnCourt"]/100)
-        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+        try:
+            year_player_df["cluster"]=float(clusterdf.loc[(clusterdf["formatname"]==player) & (clusterdf["Year"]==2018)]["cluster"])
+        except:
+            year_player_df["cluster"] = ""
+        indivstat[player] = year_player_df[["data","Year","cluster"]].fillna("").reset_index(drop=True).T.to_dict()
     return jsonify(indivstat)
 
 
