@@ -24,8 +24,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <script src="/../static/js/date_id_dict.js"></script>
     <script src="/../static/js/chartjsgraph.js"></script>
     <script src="/../static/js/leaguegraph.js"></script>
-    
-
   </head>
 <body onload="printname()">
 
@@ -192,24 +190,19 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
       <div class="w3-col m2 w3-dark-grey w3-container w3-padding-6 w3-margin-1 w3-round" style="height: 720px; border-color: black; border-width: 1px; border-style:outset;">
         <br>
-      </div>
-      <div class="w3-col m10 w3-light-grey w3-container w3-padding-16 w3-round" style="height: 720px; border-color: black; border-width: 1px; border-style: solid;">
-        <br>
-      
-
-
-      <div class=" w3-display-container w3-round" style="height: 600px; ">
-          <div id="graph2div"><canvas id="graph2" style="position: absolute;"></canvas></div>
-
-          <select id="stat-scale-2" onchange="plotgraph2()" style="position:absolute; right:0px; bottom:0px;">
-              <option selected disabled>Choose A Scale</option>
+          <h6>Select parameters for X-axis, Y-axis, Radius</h6>
+          <br>
+          <br>
+          <select id="stat-scale-X" style="width: 60%;">
+              <option selected disabled>X Scale</option>
               <option>total</option>
               <option>pergame</option>
               <option>per36</option>
               <option>per100</option>
           </select>
-          <select id="stat-name-2" onchange="plotgraph2()" style="position:absolute; right:150px; bottom:0px;">
-              <option selected disabled>Choose A Stat</option>
+          <br>
+          <select id="stat-name-X" style="width: 60%;">
+              <option selected disabled>X Stat</option>
               <option>PTS</option>
               <option>TRB</option>
               <option>AST</option>
@@ -257,6 +250,139 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
               <option>OBPM</option>
               <option>VORP</option>
           </select>
+          <br>
+          <br>
+
+          <select id="stat-scale-Y" style="width: 60%;">
+            <option selected disabled>Y Scale</option>
+            <option>total</option>
+            <option>pergame</option>
+            <option>per36</option>
+            <option>per100</option>
+          </select>
+          <br>
+          <select id="stat-name-Y" style="width: 60%;">
+            <option selected disabled>Y Stat</option>
+            <option>PTS</option>
+            <option>TRB</option>
+            <option>AST</option>
+            <option>BLK</option>
+            <option>STL</option>
+            <option>PF</option>
+            <option>TOV</option>
+            <option>DRB</option>
+            <option>ORB</option>
+            <option>MP</option>
+            <option>FG</option>
+            <option>FGA</option>
+            <option>2P</option>
+            <option>2PA</option>
+            <option>3P</option>
+            <option>3PA</option>
+            <option>FT</option>
+            <option>FTA</option>
+            
+            <option>FG%</option>
+            <option>2P%</option>
+            <option>3P%</option>
+            <option>FT%</option>
+            <option>eFG%</option>
+            <option>TS%</option>
+            
+            <option>3PAr</option>
+            <option>FTr</option>
+            <option>USG%</option>
+            <option>TRB%</option>
+            <option>DRB%</option>
+            <option>ORB%</option>
+            <option>AST%</option>
+            <option>BLK%</option>
+            <option>STL%</option>
+            <option>TOV%</option>
+            
+            <option>PER</option>
+            <option>OWS</option>
+            <option>DWS</option>
+            <option>WS</option>
+            <option>WS/48</option>
+            <option>BPM</option>
+            <option>DBPM</option>
+            <option>OBPM</option>
+            <option>VORP</option>
+        </select>
+        <br>
+        <br>
+
+        <select id="stat-scale-R" style="width: 60%;">
+          <option selected disabled>R Scale</option>
+          <option>total</option>
+          <option>pergame</option>
+          <option>per36</option>
+          <option>per100</option>
+      </select>
+      <br>
+      <select id="stat-name-R" style="width: 60%;">
+          <option selected disabled>R Stat</option>
+          <option>PTS</option>
+          <option>TRB</option>
+          <option>AST</option>
+          <option>BLK</option>
+          <option>STL</option>
+          <option>PF</option>
+          <option>TOV</option>
+          <option>DRB</option>
+          <option>ORB</option>
+          <option>MP</option>
+          <option>FG</option>
+          <option>FGA</option>
+          <option>2P</option>
+          <option>2PA</option>
+          <option>3P</option>
+          <option>3PA</option>
+          <option>FT</option>
+          <option>FTA</option>
+          
+          <option>FG%</option>
+          <option>2P%</option>
+          <option>3P%</option>
+          <option>FT%</option>
+          <option>eFG%</option>
+          <option>TS%</option>
+          
+          <option>3PAr</option>
+          <option>FTr</option>
+          <option>USG%</option>
+          <option>TRB%</option>
+          <option>DRB%</option>
+          <option>ORB%</option>
+          <option>AST%</option>
+          <option>BLK%</option>
+          <option>STL%</option>
+          <option>TOV%</option>
+          
+          <option>PER</option>
+          <option>OWS</option>
+          <option>DWS</option>
+          <option>WS</option>
+          <option>WS/48</option>
+          <option>BPM</option>
+          <option>DBPM</option>
+          <option>OBPM</option>
+          <option>VORP</option>
+      </select>
+      <br>
+      <br>
+      <button type="button" onclick="plotgraph2()"><h3>Generate Plot</h3></button>
+      <br>
+      <br>
+      </div>
+      <div class="w3-col m10 w3-light-grey w3-container w3-padding-16 w3-round" style="height: 720px; border-color: black; border-width: 1px; border-style: solid;">
+        <br>
+      
+      <div class=" w3-display-container w3-round" style="height: 640px; ">
+          <div id="graph2div"><canvas id="graph2" style="position: absolute; top:40px;"></canvas></div>
+
+          
           
         </div>
           
@@ -265,7 +391,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
   
-  <!-- Grid -->
+<!--   
   <div class="w3-row w3-container">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
@@ -295,10 +421,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <h3>Promises</h3>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
     </div>
-  </div>
+  </div> -->
 
   <!-- Grid -->
-  <div class="w3-row-padding" id="plans">
+  <!-- <div class="w3-row-padding" id="plans">
     <div class="w3-center w3-padding-64">
       <h3>Pricing Plans</h3>
       <p>Choose a pricing plan that fits your needs.</p>
@@ -354,9 +480,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         </li>
       </ul>
     </div>
-  </div>
+  </div> -->
 
-  <!-- Grid -->
+  <!-- Grid
   <div class="w3-row-padding" id="about">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
@@ -397,10 +523,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Contact -->
-  <div class="w3-center w3-padding-64" id="contact">
+  <!-- <div class="w3-center w3-padding-64" id="contact">
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
   </div>
 
@@ -424,7 +550,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <button type="submit" class="w3-button w3-block w3-black">Send</button>
   </form>
 
-</div>
+</div> -->
 
 
 <!-- Footer -->

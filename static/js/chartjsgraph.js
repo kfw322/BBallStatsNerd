@@ -28,7 +28,6 @@ function plotgraph1(){
     
     getJSON(url,function(error,jsondata){
       if(error!=null){
-          alert("This is fine. *dog in burning house.jpg*");
       } else {
         
         var divisor = 0;

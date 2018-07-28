@@ -110,7 +110,7 @@ with open("static/js/format_names2.js","w",encoding="utf8") as x:
     json.dump(format_list, x, ensure_ascii=False)
     x.write("]")   
 
-
+modern_players = sorted(past_seasons_totals.loc[past_seasons_totals["Year"]>2017]["formatname"].unique().tolist())
 
 
 
@@ -130,7 +130,6 @@ def player(playername):
 @app.route("/stat/<playername>/<stattype>/<year>")
 def stats(playername,stattype,year):
 #"total","pergame","per36", or "per100"
-    
     playerstats=""
     playerseasons = past_seasons_totals[past_seasons_totals["formatname"]==playername]
     playeryearstats = playerseasons[playerseasons["Year"]==float(year)]
@@ -179,19 +178,45 @@ def totstatsallplayers():
         allplayerstatsdict[str(playername)] = playertotdict
     return jsonify(allplayerstatsdict)
 
-@app.route("/stat/all/<stattype>/<stat>")
-def allplayersindivstat(stattype,stat):
-    modern_players = sorted(past_seasons_totals.loc[past_seasons_totals["Year"]>2015]["formatname"].unique().tolist())
+@app.route("/stat/all/total/<stat>")
+def alltotal(stat):
     indivstat = {}
     for player in modern_players:
-        year_player_df = past_seasons_totals.loc[(past_seasons_totals["formatname"]==player) & (past_seasons_totals["possOnCourt"]> 0)]
-        if stattype == "total": year_player_df["data"]=year_player_df[stat]/1
-        elif stattype == "pergame": year_player_df["data"]=year_player_df[stat]/(year_player_df["G"])
-        elif stattype == "per36": year_player_df["data"]=year_player_df[stat]/(year_player_df["MP"]/36)
-        elif stattype == "per100": year_player_df["data"]=year_player_df[stat]/(year_player_df["possOnCourt"]/100)
-        else: return "invalid stat scale"
-        indivstat[player] = year_player_df[["data","Year"]].fillna("").set_index("Year").to_dict()
+        year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year",stat]]
+        year_player_df["data"]=year_player_df[stat]
+        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
     return jsonify(indivstat)
+
+@app.route("/stat/all/pergame/<stat>")
+def allpergame(stat):
+    indivstat = {}
+    for player in modern_players:
+        year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","G",stat]]
+        year_player_df["data"]=year_player_df[stat]/(year_player_df["G"])
+        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+    return jsonify(indivstat)
+
+@app.route("/stat/all/per36/<stat>")
+def allper36(stat):
+    indivstat = {}
+    for player in modern_players:
+        year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","MP",stat]]
+        year_player_df["data"]=year_player_df[stat]/(year_player_df["MP"]/36)
+        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+    return jsonify(indivstat)
+
+@app.route("/stat/all/per100/<stat>")
+def allper100(stat):
+    indivstat = {}
+    for player in modern_players:
+        year_player_df = past_seasons_totals.loc[(past_seasons_totals["MP"]> 500) & (past_seasons_totals["formatname"]==player)][["formatname","Year","possOnCourt",stat]]
+        year_player_df["data"]=year_player_df[stat]/(year_player_df["possOnCourt"]/100)
+        indivstat[player] = year_player_df[["data","Year"]].fillna("").reset_index(drop=True).T.to_dict()
+    return jsonify(indivstat)
+
+
+
+
 
 #generates HTML. don't need right now, might later
 # @app.route("/player/<playername>/seasonstats/<year>")
