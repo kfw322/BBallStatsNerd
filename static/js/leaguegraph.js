@@ -115,7 +115,7 @@ function plotgraph2(){
                   
                   datasets.push({
                     data:[{x:x,y:y,r:r}], 
-                    label: String("Player:" + name + "Cluster " + Xjsondata[labels[i]][j]["cluster"] + ": " + cluster),
+                    label: String("Player:" + name + " (" + Xjsondata[labels[i]][j]["cluster"] + cluster + ")\n"),
                     backgroundColor: backgroundcolor
                   });
                 }
