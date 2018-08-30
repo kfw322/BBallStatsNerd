@@ -21,7 +21,6 @@ citipy==0.0.5
 click==6.7
 cloudpickle==0.5.2
 cluster==1.4.1.post1
-clyent==1.2.2
 colorama==0.3.9
 comtypes==1.1.4
 conda==4.5.2
