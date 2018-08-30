@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, render_template, request, redirect, flash
 import json
-import requests
 import pandas as pd
 import numpy as np
 
